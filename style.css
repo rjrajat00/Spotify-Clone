@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Caslon+Display&family=Satisfy&display=swap');
+
+body{
+background-color: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-family: 'Libre Caslon Display', serif;
+    
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 14px;
+}
+
+nav ul img{
+    width: 45px;
+    padding: 0 7px;
+
+}
+.brand{
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.container{
+    min-height: 90vh;
+    background-color: black;
+    color: white;
+    font-family:  'Dancing Script', cursive;
+    display: flex;
+    margin: 40px;
+    width: 90%;
+    border-radius: 20px;
+    padding: 30px;
+    background-image: url('bg3.jpg');
+    background-repeat: no-repeat;
+   
+
+}
+.footer{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column; }
+
+    .icons {
+        margin-top: 18px;
+    }
+
+    .icons i {
+cursor: pointer;
+    }
+
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.musicItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    font-family:'Libre Caslon Display', serif;
+    margin: 13px;
+    width: 150%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 11px;
+}
+.musicItem img{
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 20px;
+    
+}
+
+.musicItemContainer{
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.musicInfo {
+    position:absolute;
+    left: 7vw;
+    font-family:'Courier New', Courier, monospace
+}
+.musicInfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    background-color:red;
+    width: 70px;
+}
+.timestamp{
+    margin: 0,20px;
+}
+.timestamp i {
+    cursor: pointer;
+}
+
